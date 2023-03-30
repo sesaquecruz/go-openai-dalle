@@ -55,16 +55,25 @@ After the program has been started, you can start creating images using DALL·E 
 
 ## Example
 
-<div style="display: flex; justify-content: space-around; flex-direction: column; margin: 2%;">
-  <div style="display: flex; justify-content: center; margin: 2%;">
-  	<img src="./examples/description.png" style="width: 45%;">
-  </div>
-  <div style="display: flex; justify-content: space-around;">
-    <img src="./examples/lost-robot-1.png" style="width: 35%;">
-    <img src="./examples/lost-robot-2.png" style="width: 35%;">
-  </div>
-</div>
+```
+[Press 'ctrl + c' to exit]
 
+    ____  ___    __    __       ______   ___ 
+   / __ \/   |  / /   / /      / ____/  |__ \
+  / / / / /| | / /   / /      / __/     __/ /
+ / /_/ / ___ |/ /___/ /___   / /___    / __/ 
+/_____/_/  |_/_____/_____/  /_____/   /____/ 
+
+
+image description > A robot lost in a rainy forest
+```
+
+<table>
+  <tr>
+    <td><img src="./examples/lost-robot-1.png"></td>
+    <td><img src="./examples/lost-robot-2.png"></td>
+  </tr>
+</table>
 
 ## Contributing
 
