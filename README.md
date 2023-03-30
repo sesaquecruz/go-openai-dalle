@@ -65,7 +65,7 @@ After the program has been started, you can start creating images using DALL·E 
 /_____/_/  |_/_____/_____/  /_____/   /____/ 
 
 
-image description > A robot lost in a rainy forest
+image description > A lost robot in a rainy forest
 ```
 
 <table>
