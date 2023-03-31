@@ -8,6 +8,7 @@ import (
 	"image"
 	"image/png"
 	"os"
+	"path/filepath"
 	"time"
 
 	openai "github.com/sashabaranov/go-openai"
@@ -57,6 +58,11 @@ func (d *DallE2) GenerateImage(ctx context.Context, description string) (image.I
 
 func (d DallE2) SaveImage(image image.Image) (*string, error) {
 	path := fmt.Sprintf("%sdalle2_%s.png", d.Path, time.Now().Format("2006-01-02_15-04-05-001"))
+
+	err := os.MkdirAll(filepath.Dir(path), 0755)
+	if err != nil {
+		return nil, err
+	}
 
 	file, err := os.Create(path)
 	if err != nil {
